@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>METALSHOP | Ecommerce Website</title>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="wrapper container">
+        <div class="logo"><a href="index.html">METALSHOP</a></div>
+        <ul class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="products.html">Товари</a></li>
+          <li>
+            <a href="" class="desktop-item">Магазин <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Магазин <span><i class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="./images/ches.jpg" alt="" />
+              </div>
+              <div class="row">
+                <header>Гітари</header>
+                <ul class="mega-links">
+                  <li><a href="#">Електрогітари</a></li>
+                  <li><a href="#">Акустичні гітари</a></li>
+                  <li><a href="#">Бас гітари</a></li>
+                  <li><a href="#">Укулеле</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Гітарне обладнання</header>
+                <ul class="mega-links">
+                  <li><a href="#">Педалі</a></li>
+                  <li><a href="#">Підсилювачі</a></li>
+                  <li><a href="#">Тютери і метрономи</a></li>
+                  <li><a href="#">Гітарні інтерфейси</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Гітарні аксесуари</header>
+                <ul class="mega-links">
+                  <li><a href="#">Стурни</a></li>
+                  <li><a href="#">Медіатори</a></li>
+                  <li><a href="#">Кейси</a></li>
+                  <li><a href="#">Ремні</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+          <li><a href="">Блог</a></li>
+          <li>
+            <a href="" class="desktop-item">Вендори <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop1" />
+            <label for="showdrop1" class="mobile-item">Вендори <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu1">
+              <li><a href="">Наші вендори</a></li>
+              <li><a href="">Деталі магазину</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="" class="desktop-item">Навігація <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop2" />
+            <label for="showdrop2" class="mobile-item">Навігація <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu2">
+              <li><a href="">Про нас</a></li>
+              <li><a href="">Контакти</a></li>
+              <li><a href="">Faq</a></li>
+              <li><a href="">Page 404</a></li>
+            </ul>
+          </li>
+          <!-- icons -->
+          <li class="icons">
+            <span>
+              <img src="./images/shoppingBag.svg" alt="" />
+              <small class="count d-flex">0</small>
+            </span>
+            <span><img src="./images/search.svg" alt="" /></span>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Товар</th>
+          <th>Кількість</th>
+          <th>Ціна</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product1.jpg" alt="" />
+              <div>
+                <p>Rocket ST-01 SB</p>
+                <span>Ціна: $100.00</span>
+                <br />
+                <a href="#">видалити</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$100.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product2.jpg" alt="" />
+              <div>
+                <p>Hondo Fame Series 7603</p>
+                <span>Ціна: $450.00</span>
+                <br />
+                <a href="#">видалити</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$450.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product3.jpg" alt="" />
+              <div>
+                <p>ACH Chourus Effect</p>
+                <span>Ціна: $69.00</span>
+                <br />
+                <a href="#">видалити</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$69.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product4.jpg" alt="" />
+              <div>
+                <p>Ibanez RG421MSP</p>
+                <span>Ціна: $450.00</span>
+                <br />
+                <a href="#">видалити</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$450.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product5.jpg" alt="" />
+              <div>
+                <p>Blackstar Artist 15</p>
+                <span>Ціна: $400.00</span>
+                <br />
+                <a href="#">видалити</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$400.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Ціна</td>
+            <td>$1469</td>
+          </tr>
+          <tr>
+            <td>Податок</td>
+            <td>$50</td>
+          </tr>
+          <tr>
+            <td>Загалом</td>
+            <td>$1519</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Перейти до оплати</a>
+      </div>
+    </div>
+
+     <!-- Footer -->
+     <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-center">
+            <h3>ДОДАТКОВІ<br>ПОСЛУГИ</h3>
+            <a href="#">Бренди</a>
+            <a href="#">Подарункові сертифікати</a>
+            <a href="#">Парнтери</a>
+            <a href="#">Акції</a>
+            <a href="#">Карта сайту</a>
+          </div>
+          <div class="footer-center">
+            <h3>ІНФОРМАЦІЯ</h3>
+            <a href="#">Про нас</a>
+            <a href="#">Політика конфіденційності</a>
+            <a href="#">Правила та умови</a>
+            <a href="#">Контакти</a>
+            <a href="#">Карта сайту</a>
+          </div>
+          <div class="footer-center">
+            <h3>Особистий аккаунт</h3>
+            <a href="#">Мій аккаунт</a>
+            <a href="#">Історія покупок</a>
+            <a href="#">Список бажань</a>
+            <a href="#">Новини</a>
+            <a href="#">Правила повернення</a>
+          </div>
+          <div class="footer-center">
+            <h3>Контакти</h3>
+            <div>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              Вулиця Шпитальна, 1, Львів, Львівська область, 79000
+            </div>
+            <div>
+              <span>
+                <i class="far fa-envelope"></i>
+              </span>
+              metalshop@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+              38(095)555-555-555
+            </div>
+            <div class="payment-methods">
+              <img src="./images/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
